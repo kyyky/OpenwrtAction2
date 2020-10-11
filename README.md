@@ -1,3 +1,12 @@
+转自p3terx 大神，默认进SSH 后自己选型号，选需要的插件，已经加入酸酸乳包
+fork 后 start 即可自动执行， 复制 SSH 连接命令粘贴到终端内执行，或者复制链接在浏览器中打开使用网页终端。（网页终端可能会遇到黑屏的情况，按 Ctrl + C 即可）
+
+cd openwrt && make menuconfig
+
+完成后按快捷键Ctrl+D或执行exit命令退出，后续编译工作将自动进行
+
+
+
 # Actions-OpenWrt
 
 [![LICENSE](https://img.shields.io/github/license/mashape/apistatus.svg?style=flat-square&label=LICENSE)](https://github.com/P3TERX/Actions-OpenWrt/blob/master/LICENSE)
