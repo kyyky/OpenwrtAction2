@@ -17,7 +17,7 @@ on:
       ssh:
         description: 'SSH connection to Actions'
         required: true
-        default: 'true'
+        default: true
   watch:
     types: started
 #  schedule:
